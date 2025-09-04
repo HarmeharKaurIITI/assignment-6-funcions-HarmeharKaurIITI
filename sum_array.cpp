@@ -4,7 +4,10 @@ using namespace std;
 
 int sumArray(const vector<int>& arr) {
     // TODO: complete the function as per instructions
-    
+    int sum=0;
+    for( int j=0; j<arr.size(); ++j) {
+    sum+=arr[j];}
+    return sum;
 }
 
 int main() {
@@ -16,4 +19,3 @@ int main() {
     cout << sumArray(arr) << "\n";
     return 0;
 }
-
